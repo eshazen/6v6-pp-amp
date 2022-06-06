@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name tube_sockets)(type KiCad)(uri ${KIPRJMOD}/tube_sockets.pretty)(options "")(descr ""))
+  (lib (name Hammond_XFRMR)(type KiCad)(uri ${KIPRJMOD}/Hammond_XFRMR.pretty)(options "")(descr ""))
+)
