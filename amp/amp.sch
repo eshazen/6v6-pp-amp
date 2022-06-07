@@ -561,10 +561,6 @@ F 3 "~" H 6100 800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4900 1100 4900 800 
-Wire Wire Line
-	4900 800  5900 800 
-Wire Wire Line
 	5700 1050 5900 1050
 Connection ~ 5700 1050
 $Comp
@@ -1272,10 +1268,6 @@ F 3 "~" H 12150 800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10950 1100 10950 800 
-Wire Wire Line
-	10950 800  11950 800 
-Wire Wire Line
 	11750 1050 11950 1050
 Connection ~ 11750 1050
 $Comp
@@ -1463,17 +1455,6 @@ F 3 "~" H 1300 5950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Switch:SW_SPST SW1
-U 1 1 62BACA0A
-P 1700 5950
-F 0 "SW1" H 1700 6185 50  0000 C CNN
-F 1 "SW_SPST" H 1700 6094 50  0000 C CNN
-F 2 "" H 1700 5950 50  0001 C CNN
-F 3 "~" H 1700 5950 50  0001 C CNN
-	1    1700 5950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Lamp_Neon NE1
 U 1 1 62BAE772
 P 1400 7100
@@ -1571,22 +1552,22 @@ Wire Wire Line
 $Comp
 L Device:Jumper_NC_Dual JP?
 U 1 1 62B13A04
-P 2000 6400
-F 0 "JP?" H 2000 6547 50  0000 C CNN
-F 1 "JPR3" H 2000 6638 50  0000 C CNN
-F 2 "" H 2000 6400 50  0001 C CNN
-F 3 "~" H 2000 6400 50  0001 C CNN
-	1    2000 6400
+P 2000 6550
+F 0 "JP?" H 2000 6697 50  0000 C CNN
+F 1 "JPR3" H 2000 6788 50  0000 C CNN
+F 2 "" H 2000 6550 50  0001 C CNN
+F 3 "~" H 2000 6550 50  0001 C CNN
+	1    2000 6550
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1900 5950 2000 5950
 Wire Wire Line
-	2000 5950 2000 6150
+	2000 5950 2000 6200
 Wire Wire Line
-	2250 6400 2250 6900
+	2250 6550 2250 6900
 Wire Wire Line
-	1750 7100 1750 6400
+	1750 7100 1750 6550
 Wire Wire Line
 	1750 7100 2250 7100
 $Comp
@@ -1601,16 +1582,105 @@ F 3 "~" H 1400 6450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1400 6300 1400 6150
+	1400 6300 1400 6200
 Wire Wire Line
-	1400 6150 2000 6150
-Connection ~ 2000 6150
+	1400 6200 2000 6200
+Connection ~ 2000 6200
 Wire Wire Line
-	2000 6150 2000 6300
+	2000 6200 2000 6450
 Wire Wire Line
 	1400 6600 1400 6900
 Text Notes 2050 6300 0    50   ~ 0
 125V
 Text Notes 1750 6300 0    50   ~ 0
 117V
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J?
+U 1 1 62A3351D
+P 5450 800
+F 0 "J?" H 5150 1050 50  0000 C CNN
+F 1 "JPR_2x3" H 5500 1026 50  0000 C CNN
+F 2 "" H 5450 800 50  0001 C CNN
+F 3 "~" H 5450 800 50  0001 C CNN
+	1    5450 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 700  5750 800 
+Wire Wire Line
+	5750 800  5750 900 
+Connection ~ 5750 800 
+Wire Wire Line
+	5750 800  5900 800 
+Wire Wire Line
+	5250 700  4600 700 
+Wire Wire Line
+	4600 700  4600 1050
+Connection ~ 4600 1050
+Wire Wire Line
+	5250 800  4900 800 
+Wire Wire Line
+	4900 800  4900 1100
+Wire Wire Line
+	5250 900  5100 900 
+Wire Wire Line
+	5100 900  5100 1100
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J?
+U 1 1 62A982B1
+P 11500 800
+F 0 "J?" H 11250 1050 50  0000 C CNN
+F 1 "JPR_2x3" H 11550 1026 50  0000 C CNN
+F 2 "" H 11500 800 50  0001 C CNN
+F 3 "~" H 11500 800 50  0001 C CNN
+	1    11500 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11800 700  11800 800 
+Wire Wire Line
+	11800 800  11800 900 
+Connection ~ 11800 800 
+Wire Wire Line
+	11800 800  11950 800 
+Wire Wire Line
+	11300 700  10650 700 
+Wire Wire Line
+	10650 700  10650 1050
+Wire Wire Line
+	11300 800  10950 800 
+Wire Wire Line
+	10950 800  10950 1100
+Wire Wire Line
+	11300 900  11150 900 
+Wire Wire Line
+	11150 900  11150 1100
+Connection ~ 10650 1050
+$Comp
+L my_tubes:SW_SPST_GND SW?
+U 1 1 62ABDF9D
+P 1700 5950
+F 0 "SW?" H 1700 6185 50  0000 C CNN
+F 1 "SW_SPST_GND" H 1700 6094 50  0000 C CNN
+F 2 "" H 1700 5950 50  0001 C CNN
+F 3 "~" H 1700 5950 50  0001 C CNN
+	1    1700 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 6100 1750 6100
+Wire Wire Line
+	1750 6100 2350 6100
+Connection ~ 1750 6100
+$Comp
+L power:Earth #PWR?
+U 1 1 62AE30E6
+P 2350 6100
+F 0 "#PWR?" H 2350 5850 50  0001 C CNN
+F 1 "Earth" H 2350 5950 50  0001 C CNN
+F 2 "" H 2350 6100 50  0001 C CNN
+F 3 "~" H 2350 6100 50  0001 C CNN
+	1    2350 6100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
