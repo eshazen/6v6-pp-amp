@@ -21,6 +21,7 @@ F 0 "U3" H 4100 3350 50  0000 L CNN
 F 1 "6V6" H 4100 3250 50  0000 L CNN
 F 2 "tube_sockets:Octal_Socket_P-ST8-193" H 4800 2750 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/el34.pdf" H 4500 3100 50  0001 C CNN
+F 4 "AES P-ST8-193" H 4500 3100 50  0001 C CNN "CatNo"
 	1    4500 3100
 	1    0    0    -1  
 $EndComp
@@ -32,6 +33,7 @@ F 0 "U1" H 1800 4600 50  0000 L CNN
 F 1 "6SL7" H 1800 4500 50  0000 L CNN
 F 2 "tube_sockets:Octal_Socket_P-ST8-193" H 1970 3650 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/ecc81.pdf" H 1700 4050 50  0001 C CNN
+F 4 "AES P-ST8-193" H 1700 4050 50  0001 C CNN "CatNo"
 	1    1700 4050
 	1    0    0    -1  
 $EndComp
@@ -43,6 +45,7 @@ F 0 "U1" H 2600 4600 50  0000 L CNN
 F 1 "6SL7" H 2600 4500 50  0000 L CNN
 F 2 "tube_sockets:Octal_Socket_P-ST8-193" H 2720 3650 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/ecc81.pdf" H 2450 4050 50  0001 C CNN
+F 4 "AES P-ST8-193" H 2450 4050 50  0001 C CNN "CatNo"
 	2    2450 4050
 	-1   0    0    -1  
 $EndComp
@@ -88,6 +91,7 @@ F 0 "U4" H 5250 3350 50  0000 R CNN
 F 1 "6V6" H 5250 3250 50  0000 R CNN
 F 2 "tube_sockets:Octal_Socket_P-ST8-193" H 5800 2750 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/el34.pdf" H 5500 3100 50  0001 C CNN
+F 4 "AES P-ST8-193" H 5500 3100 50  0001 C CNN "CatNo"
 	1    5500 3100
 	-1   0    0    -1  
 $EndComp
@@ -352,6 +356,7 @@ F 0 "T2" V 5046 986 50  0000 R CNN
 F 1 "Hammond 1608A" V 4955 986 50  0000 R CNN
 F 2 "Hammond_XFRMR:Hammond_1608A" H 5000 1500 50  0001 C CNN
 F 3 "~" H 5000 1500 50  0001 C CNN
+F 4 "HM4113-ND" H 5000 1500 50  0001 C CNN "CatNo"
 	1    5000 1500
 	0    -1   -1   0   
 $EndComp
@@ -620,6 +625,7 @@ F 0 "U2" H 4100 6900 50  0000 C CNN
 F 1 "GZ34" H 3900 6600 50  0000 C CNN
 F 2 "tube_sockets:Octal_Socket_P-ST8-193" H 3350 6750 50  0001 C CNN
 F 3 "" H 3350 6750 50  0001 C CNN
+F 4 "AES P-ST8-193" H 3250 6750 50  0001 C CNN "CatNo"
 	1    3250 6750
 	1    0    0    -1  
 $EndComp
@@ -713,6 +719,7 @@ F 0 "U1" H 6078 7096 50  0000 L CNN
 F 1 "6SL7" H 6078 7005 50  0000 L CNN
 F 2 "tube_sockets:Octal_Socket_P-ST8-193" H 6120 6650 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/ecc81.pdf" H 5850 7050 50  0001 C CNN
+F 4 "AES P-ST8-193" H 5850 7050 50  0001 C CNN "CatNo"
 	3    5850 7050
 	1    0    0    -1  
 $EndComp
@@ -728,6 +735,7 @@ F 0 "U6" H 10150 3350 50  0000 L CNN
 F 1 "6V6" H 10150 3250 50  0000 L CNN
 F 2 "tube_sockets:Octal_Socket_P-ST8-193" H 10850 2750 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/el34.pdf" H 10550 3100 50  0001 C CNN
+F 4 "AES P-ST8-193" H 10550 3100 50  0001 C CNN "CatNo"
 	1    10550 3100
 	1    0    0    -1  
 $EndComp
@@ -739,6 +747,7 @@ F 0 "U5" H 7850 4600 50  0000 L CNN
 F 1 "6SL7" H 7850 4500 50  0000 L CNN
 F 2 "tube_sockets:Octal_Socket_P-ST8-193" H 8020 3650 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/ecc81.pdf" H 7750 4050 50  0001 C CNN
+F 4 "AES P-ST8-193" H 7750 4050 50  0001 C CNN "CatNo"
 	1    7750 4050
 	1    0    0    -1  
 $EndComp
@@ -750,6 +759,7 @@ F 0 "U5" H 8650 4600 50  0000 L CNN
 F 1 "6SL7" H 8650 4500 50  0000 L CNN
 F 2 "tube_sockets:Octal_Socket_P-ST8-193" H 8770 3650 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/ecc81.pdf" H 8500 4050 50  0001 C CNN
+F 4 "AES P-ST8-193" H 8500 4050 50  0001 C CNN "CatNo"
 	2    8500 4050
 	-1   0    0    -1  
 $EndComp
@@ -795,6 +805,7 @@ F 0 "U7" H 11300 3350 50  0000 R CNN
 F 1 "6V6" H 11300 3250 50  0000 R CNN
 F 2 "tube_sockets:Octal_Socket_P-ST8-193" H 11850 2750 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/el34.pdf" H 11550 3100 50  0001 C CNN
+F 4 "AES P-ST8-193" H 11550 3100 50  0001 C CNN "CatNo"
 	1    11550 3100
 	-1   0    0    -1  
 $EndComp
@@ -1059,6 +1070,7 @@ F 0 "T3" V 11096 986 50  0000 R CNN
 F 1 "Hammond 1608A" V 11005 986 50  0000 R CNN
 F 2 "Hammond_XFRMR:Hammond_1608A" H 11050 1500 50  0001 C CNN
 F 3 "~" H 11050 1500 50  0001 C CNN
+F 4 "HM4113-ND" H 11050 1500 50  0001 C CNN "CatNo"
 	1    11050 1500
 	0    -1   -1   0   
 $EndComp
@@ -1331,6 +1343,7 @@ F 0 "U5" H 6878 7096 50  0000 L CNN
 F 1 "6SL7" H 6878 7005 50  0000 L CNN
 F 2 "tube_sockets:Octal_Socket_P-ST8-193" H 6920 6650 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/ecc81.pdf" H 6650 7050 50  0001 C CNN
+F 4 "AES P-ST8-193" H 6650 7050 50  0001 C CNN "CatNo"
 	3    6650 7050
 	1    0    0    -1  
 $EndComp
@@ -1342,6 +1355,7 @@ F 0 "U3" H 5450 6150 50  0000 L CNN
 F 1 "6V6" H 5450 6050 50  0000 L CNN
 F 2 "tube_sockets:Octal_Socket_P-ST8-193" H 6150 5550 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/el34.pdf" H 5850 5900 50  0001 C CNN
+F 4 "AES P-ST8-193" H 5850 5900 50  0001 C CNN "CatNo"
 	2    5850 5900
 	1    0    0    -1  
 $EndComp
@@ -1353,6 +1367,7 @@ F 0 "U4" H 6250 6150 50  0000 L CNN
 F 1 "6V6" H 6250 6050 50  0000 L CNN
 F 2 "tube_sockets:Octal_Socket_P-ST8-193" H 6950 5550 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/el34.pdf" H 6650 5900 50  0001 C CNN
+F 4 "AES P-ST8-193" H 6650 5900 50  0001 C CNN "CatNo"
 	2    6650 5900
 	1    0    0    -1  
 $EndComp
@@ -1364,6 +1379,7 @@ F 0 "U6" H 6950 6150 50  0000 L CNN
 F 1 "6V6" H 6950 6050 50  0000 L CNN
 F 2 "tube_sockets:Octal_Socket_P-ST8-193" H 7650 5550 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/el34.pdf" H 7350 5900 50  0001 C CNN
+F 4 "AES P-ST8-193" H 7350 5900 50  0001 C CNN "CatNo"
 	2    7350 5900
 	1    0    0    -1  
 $EndComp
@@ -1375,6 +1391,7 @@ F 0 "U7" H 7750 6150 50  0000 L CNN
 F 1 "6V6" H 7750 6050 50  0000 L CNN
 F 2 "tube_sockets:Octal_Socket_P-ST8-193" H 8450 5550 50  0001 C CNN
 F 3 "http://www.r-type.org/pdfs/el34.pdf" H 8150 5900 50  0001 C CNN
+F 4 "AES P-ST8-193" H 8150 5900 50  0001 C CNN "CatNo"
 	2    8150 5900
 	1    0    0    -1  
 $EndComp
@@ -1515,6 +1532,7 @@ F 0 "T1" H 2800 7900 50  0000 C CNN
 F 1 "Transformer_Hammond_272HX" H 3350 7800 50  0000 C CNN
 F 2 "Hammond_XFRMR:Hammond_272HX" H 2650 6700 50  0001 C CNN
 F 3 "~" H 2650 6700 50  0001 C CNN
+F 4 "HM5012-ND" H 2650 6900 50  0001 C CNN "CatNo"
 	1    2650 6900
 	1    0    0    -1  
 $EndComp
@@ -1558,6 +1576,7 @@ F 0 "JP1" H 2000 6697 50  0000 C CNN
 F 1 "JPR3" H 2000 6788 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2000 6550 50  0001 C CNN
 F 3 "~" H 2000 6550 50  0001 C CNN
+F 4 "10129378-903001BLF-ND" H 2000 6550 50  0001 C CNN "CatNo"
 	1    2000 6550
 	-1   0    0    1   
 $EndComp
@@ -1576,9 +1595,10 @@ L Device:R_US R28
 U 1 1 62B96FFD
 P 1400 6450
 F 0 "R28" V 1300 6300 50  0000 C CNN
-F 1 "RRRRR" V 1300 6650 50  0000 C CNN
+F 1 "100k" V 1300 6650 50  0000 C CNN
 F 2 "" V 1440 6440 50  0001 C CNN
 F 3 "~" H 1400 6450 50  0001 C CNN
+F 4 "100KW-1-ND" H 1400 6450 50  0001 C CNN "CatNo"
 	1    1400 6450
 	-1   0    0    1   
 $EndComp
@@ -1603,6 +1623,7 @@ F 0 "J4" H 5150 1050 50  0000 C CNN
 F 1 "JPR_2x3" H 5500 1026 50  0000 C CNN
 F 2 "" H 5450 800 50  0001 C CNN
 F 3 "~" H 5450 800 50  0001 C CNN
+F 4 "2057-PH2-06-UA-ND" H 6200 1050 50  0000 C CNN "CatNo"
 	1    5450 800 
 	1    0    0    -1  
 $EndComp
@@ -1632,6 +1653,7 @@ F 0 "J5" H 11250 1050 50  0000 C CNN
 F 1 "JPR_2x3" H 11550 1026 50  0000 C CNN
 F 2 "" H 11500 800 50  0001 C CNN
 F 3 "~" H 11500 800 50  0001 C CNN
+F 4 "2057-PH2-06-UA-ND" H 11500 800 50  0001 C CNN "CatNo"
 	1    11500 800 
 	1    0    0    -1  
 $EndComp
@@ -1689,7 +1711,7 @@ F 0 "LS1" H 6470 891 50  0000 L CNN
 F 1 "Speaker" H 6470 800 50  0000 L CNN
 F 2 "BindingPost:Keystone_4109" H 6300 650 50  0001 C CNN
 F 3 "~" H 6290 800 50  0001 C CNN
-F 4 "36-4109-ND" H 6470 709 50  0000 L CNN "CatNo"
+F 4 "36-4109-ND" H 6150 500 50  0000 L CNN "CatNo"
 	1    6300 850 
 	1    0    0    -1  
 $EndComp
