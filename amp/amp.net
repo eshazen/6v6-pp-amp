@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/hazen/work/6v6-pp-amp/amp/amp.sch)
-    (date "Mon 18 Jul 2022 11:13:04 AM EDT")
+    (date "Mon 18 Jul 2022 12:40:12 PM EDT")
     (tool "Eeschema 5.1.12-84ad8e8a86~92~ubuntu20.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -233,7 +233,7 @@
       (tstamp 6283059E))
     (comp (ref J1)
       (value RCA)
-      (footprint RCA_jack:PJRAS2X1S01AUX)
+      (footprint RCA_jack:PRJAN1X1)
       (datasheet " ~")
       (fields
         (field (name CatNo) PJRAN1X1U03X-ND))
@@ -493,7 +493,7 @@
       (tstamp 62A5A6D0))
     (comp (ref J3)
       (value RCA)
-      (footprint RCA_jack:PJRAS2X1S01AUX)
+      (footprint RCA_jack:PRJAN1X1)
       (datasheet " ~")
       (fields
         (field (name CatNo) PJRAN1X1U03X-ND))
@@ -547,10 +547,10 @@
       (tstamp 62A2A230))
     (comp (ref JP1)
       (value JPR3)
-      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical)
+      (footprint Connector_Molex:Molex_KK-396_A-41791-0003_1x03_P3.96mm_Vertical)
       (datasheet ~)
       (fields
-        (field (name CatNo) 10129378-903001BLF-ND))
+        (field (name CatNo) WM4621-ND))
       (libsource (lib Device) (part Jumper_NC_Dual) (description "Dual jumper, normally closed"))
       (sheetpath (names /) (tstamps /))
       (tstamp 62B13A04))
