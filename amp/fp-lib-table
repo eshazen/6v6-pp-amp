@@ -12,4 +12,6 @@
   (lib (name RCA_jack)(type KiCad)(uri ${KIPRJMOD}/../../6cy7-amp/amp/RCA_jack.pretty)(options "")(descr ""))
   (lib (name POT)(type KiCad)(uri ${KIPRJMOD}/../../6cy7-amp/amp/POT.pretty)(options "")(descr ""))
   (lib (name MountingHolesInch)(type KiCad)(uri ${KIPRJMOD}/../../6cy7-amp/amp/MountingHolesInch.pretty)(options "")(descr ""))
+  (lib (name caps)(type KiCad)(uri ${KIPRJMOD}/caps.pretty)(options "")(descr ""))
+  (lib (name res)(type KiCad)(uri ${KIPRJMOD}/res.pretty)(options "")(descr ""))
 )
