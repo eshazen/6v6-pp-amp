@@ -1743,4 +1743,48 @@ Wire Wire Line
 	12100 1050 12100 950 
 Wire Wire Line
 	11750 1050 12100 1050
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 62D80DE1
+P 9550 5750
+F 0 "H1" H 9650 5796 50  0000 L CNN
+F 1 "MountingHole" H 9650 5705 50  0000 L CNN
+F 2 "MountingHolesInch:Mtg6-32" H 9550 5750 50  0001 C CNN
+F 3 "~" H 9550 5750 50  0001 C CNN
+	1    9550 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 62D8CF59
+P 9550 6000
+F 0 "H2" H 9650 6046 50  0000 L CNN
+F 1 "MountingHole" H 9650 5955 50  0000 L CNN
+F 2 "MountingHolesInch:Mtg6-32" H 9550 6000 50  0001 C CNN
+F 3 "~" H 9550 6000 50  0001 C CNN
+	1    9550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 62D8D904
+P 9550 6250
+F 0 "H3" H 9650 6296 50  0000 L CNN
+F 1 "MountingHole" H 9650 6205 50  0000 L CNN
+F 2 "MountingHolesInch:Mtg6-32" H 9550 6250 50  0001 C CNN
+F 3 "~" H 9550 6250 50  0001 C CNN
+	1    9550 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 62D8E11D
+P 9550 6500
+F 0 "H4" H 9650 6546 50  0000 L CNN
+F 1 "MountingHole" H 9650 6455 50  0000 L CNN
+F 2 "MountingHolesInch:Mtg6-32" H 9550 6500 50  0001 C CNN
+F 3 "~" H 9550 6500 50  0001 C CNN
+	1    9550 6500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
