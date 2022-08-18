@@ -1787,4 +1787,12 @@ F 3 "~" H 9550 6500 50  0001 C CNN
 	1    9550 6500
 	1    0    0    -1  
 $EndComp
+Text Label 1950 2200 0    50   ~ 0
+B+PRE_L
+Text Label 7950 2200 0    50   ~ 0
+B+PRE_R
+Text Label 3650 2200 0    50   ~ 0
+B+PP_L
+Text Label 9700 2200 0    50   ~ 0
+B+PP_R
 $EndSCHEMATC
