@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name my_tubes)(type Legacy)(uri /home/hazen/work/6cy7-amp/amp/my_tubes.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "my_tubes")(type "Legacy")(uri "/home/hazen/work/6cy7-amp/amp/my_tubes.lib")(options "")(descr ""))
+  (lib (name "amp-rescue")(type "KiCad")(uri "${KIPRJMOD}/amp-rescue.kicad_sym")(options "")(descr ""))
 )

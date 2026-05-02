@@ -5,3 +5,18 @@ This is a proposed build of an amp for TV sound.  I've been using a
 application.  The Dynaco A-410 EL84/6V6 schematic looks like a nice,
 classic option.
 
+As of 2026-04-02:
+
+DigiKey parts are about $560 including iron.
+
+Tubes:
+
+    JJ 6SL7 2 @ $26.95  $45
+    JJ 6V6  4 @ $23.95  $96
+    JJ GZ34 1 @ $21.95  $22
+                 Total $163
+
+PCBs from JLC almost $200 with shipping.
+<br>PCBGOGO $178 with shipping
+				 
+So around $950 total without chassis. Amps are now expensive!
