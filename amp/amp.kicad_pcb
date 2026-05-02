@@ -136,6 +136,8 @@
 	(net 60 "/B+PRE_R")
 	(net 61 "/B+PP_R")
 	(net 62 "Net-(T3-BLU{slash}YEL)")
+	(net 63 "Net-(U1A-G)")
+	(net 64 "Net-(U5A-G)")
 	(footprint "caps:cap_rect_32x14_P18.3mm"
 		(layer "F.Cu")
 		(uuid "00000000-0000-0000-0000-000062d5df82")
@@ -202,7 +204,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000627dbb42")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 25 -7)
@@ -344,7 +346,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000629ff99c")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.071 1.44)
@@ -3268,7 +3270,7 @@
 		(property ki_fp_filters "*Fuse*")
 		(path "/00000000-0000-0000-0000-000062baa6bb")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -38.1 6.35)
@@ -3446,7 +3448,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/00000000-0000-0000-0000-000062a2a230")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 25 15)
@@ -3694,7 +3696,7 @@
 		)
 		(path "/00000000-0000-0000-0000-000062b98852")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 19.05 -8.255)
@@ -3849,7 +3851,7 @@
 		)
 		(path "/00000000-0000-0000-0000-000062bae772")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -3.175 -1.905)
@@ -4013,7 +4015,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000627d3f8c")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.55 2.37)
@@ -4276,7 +4278,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000627d44fd")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.55 2.37)
@@ -4539,7 +4541,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000627dd4f2")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 11.42 -1.92)
@@ -4800,7 +4802,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000629fe3e3")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 53 -6)
@@ -4939,7 +4941,7 @@
 		)
 		(path "/00000000-0000-0000-0000-000062abdf9d")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -8.75 -5)
@@ -5110,7 +5112,7 @@
 		)
 		(path "/00000000-0000-0000-0000-000062a17279")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 40.005 50.8)
@@ -5542,7 +5544,7 @@
 		)
 		(path "/00000000-0000-0000-0000-0000629ec97e")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.905 -6.985)
@@ -5869,7 +5871,7 @@
 		(property ki_fp_filters "VALVE*OCTAL*")
 		(path "/00000000-0000-0000-0000-000062ab0bfa")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.905 -6.985)
@@ -6202,7 +6204,7 @@
 		(property ki_fp_filters "VALVE*OCTAL*")
 		(path "/00000000-0000-0000-0000-000062ab18da")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.905 -6.985)
@@ -6537,7 +6539,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000627e50da")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 11.42 -1.92)
@@ -6800,7 +6802,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000627ea0d1")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.44 0)
@@ -7063,7 +7065,7 @@
 		(property ki_fp_filters "SolderJumper*Bridged* Jumper* TestPoint*2Pads* TestPoint*Bridge*")
 		(path "/00000000-0000-0000-0000-000062b13a04")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 9.94 4.005)
@@ -7546,7 +7548,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/00000000-0000-0000-0000-000062d80de1")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -7612,7 +7614,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/00000000-0000-0000-0000-000062d8cf59")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -7678,7 +7680,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/00000000-0000-0000-0000-000062d8e11d")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -7744,7 +7746,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/00000000-0000-0000-0000-000062d8d904")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -7822,7 +7824,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000062a5a6d0")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2 6)
@@ -7962,7 +7964,7 @@
 		(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
 		(path "/00000000-0000-0000-0000-00006283eb0f")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 8.75 4.75)
@@ -8140,9 +8142,9 @@
 			)
 		)
 		(property ki_fp_filters "VALVE*NOVAL*P*")
-		(path "/00000000-0000-0000-0000-0000627d161f")
+		(path "/00000000-0000-0000-0000-000062a2e9b2")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.08 -8.255)
@@ -8312,7 +8314,7 @@
 			(drill 2.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 22 "Net-(J1-In)")
+			(net 63 "Net-(U1A-G)")
 			(pinfunction "G")
 			(pintype "input")
 			(uuid "c15fb2a0-ded0-4164-9d0e-62c48d0533b6")
@@ -8481,7 +8483,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-0000627dafe2")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -7 7)
@@ -8620,7 +8622,7 @@
 		)
 		(path "/00000000-0000-0000-0000-000062bbffc2")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 19.05 -8.255)
@@ -8778,7 +8780,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/00000000-0000-0000-0000-000062a5a6c6")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 3.75 -8.081)
@@ -11704,7 +11706,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/00000000-0000-0000-0000-000062a982b1")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 6.41)
@@ -12020,7 +12022,7 @@
 		)
 		(path "/00000000-0000-0000-0000-000062a5a64a")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 31.75 38.1)
@@ -12389,7 +12391,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/00000000-0000-0000-0000-000062a3351d")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 6.41)
@@ -12708,7 +12710,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/00000000-0000-0000-0000-0000628301d6")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 3.75 -8.081)
@@ -15631,7 +15633,7 @@
 		)
 		(path "/00000000-0000-0000-0000-0000627fd4e2")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 31.75 38.1)
@@ -15998,7 +16000,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00006283059e")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 2 6)
@@ -16138,7 +16140,7 @@
 		(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
 		(path "/00000000-0000-0000-0000-000062a5a703")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 8.75 4.75)
@@ -16318,7 +16320,7 @@
 		(property ki_fp_filters "VALVE*OCTAL*")
 		(path "/00000000-0000-0000-0000-000062abf604")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.905 -6.985)
@@ -16651,7 +16653,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000062a5a597")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -7 -7)
@@ -16791,7 +16793,7 @@
 		(property ki_fp_filters "VALVE*OCTAL*")
 		(path "/00000000-0000-0000-0000-000062ac0102")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.905 -6.985)
@@ -17126,7 +17128,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000062a5a5bf")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.28 -1.92)
@@ -17389,7 +17391,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000062a5a625")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.44 0)
@@ -17652,7 +17654,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000062a5a65d")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.22 -1.37)
@@ -17875,7 +17877,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000062a5a67b")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.28 -1.92)
@@ -18138,7 +18140,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000062a5a56a")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.44 0)
@@ -18401,7 +18403,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000062a5a5b1")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.44 0)
@@ -18664,7 +18666,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/00000000-0000-0000-0000-000062a5a633")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.804775 -1.475)
@@ -20010,7 +20012,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000062a5a6a9")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.44 0)
@@ -20273,7 +20275,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000062a5a5fb")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.44 0)
@@ -20536,7 +20538,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000062a5a5a7")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.44 0)
@@ -20799,7 +20801,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/00000000-0000-0000-0000-000062a5a69f")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -4.317082 -3.575)
@@ -23295,7 +23297,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000062a5a5e7")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.28 -1.92)
@@ -23558,7 +23560,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000062a5a5dd")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.28 -1.92)
@@ -23821,7 +23823,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000062a5a667")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.28 -1.92)
@@ -24084,7 +24086,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000062a5a574")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.44 0)
@@ -24345,7 +24347,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-000062a5a58d")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -7 -7)
@@ -24487,7 +24489,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/00000000-0000-0000-0000-000062a5a605")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -4.317082 -3.575)
@@ -26980,7 +26982,7 @@
 		)
 		(path "/00000000-0000-0000-0000-000062a5a711")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -15.75 5)
@@ -27151,7 +27153,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000062b96ffd")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.44 0)
@@ -27412,7 +27414,7 @@
 		(property ki_fp_filters "VALVE*NOVAL*P*")
 		(path "/00000000-0000-0000-0000-000062ab011a")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.08 -8.255)
@@ -27582,7 +27584,7 @@
 			(drill 2.5)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 24 "Net-(J3-In)")
+			(net 64 "Net-(U5A-G)")
 			(pinfunction "G")
 			(pintype "input")
 			(uuid "ea7ca507-10db-4ab3-a0e7-33cb86846971")
@@ -27753,7 +27755,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/00000000-0000-0000-0000-00006281671b")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 8.861 -0.317)
@@ -30249,7 +30251,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/00000000-0000-0000-0000-0000627e7ab4")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 3.581 1.44)
@@ -32745,7 +32747,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000627e76ab")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.55 2.37)
@@ -33008,7 +33010,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000062816f4e")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.55 2.37)
@@ -33271,7 +33273,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000627dca73")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.55 2.37)
@@ -33534,7 +33536,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000627e58e1")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.28 1.92)
@@ -33797,7 +33799,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-0000627dc2ab")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 13.69 -2.37)
@@ -34060,7 +34062,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00006280f309")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 11.42 1.92)
@@ -34323,7 +34325,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/00000000-0000-0000-0000-0000627eba42")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1 1.04)
@@ -35669,7 +35671,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00006280864c")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.22 1.37)
@@ -35892,7 +35894,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-000062808a90")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.28 1.92)
@@ -36152,7 +36154,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00006285c2f6")
 		(sheetname "/")
-		(sheetfile "/home/hazen/work/6v6-pp-amp/amp/amp.sch")
+		(sheetfile "amp.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -15.75 5)
@@ -36254,6 +36256,380 @@
 			(uuid "5bfaa7ba-3a57-476b-b2ff-7cd7afd99437")
 		)
 		(embedded_fonts no)
+	)
+	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(layer "F.Cu")
+		(uuid "cafa7533-d503-48d3-87d2-c8c310cb0980")
+		(at 343.1286 267.9446)
+		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
+		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
+		(property "Reference" "R30"
+			(at 7.62 -3.37 0)
+			(layer "F.SilkS")
+			(uuid "b27e82f9-e9b3-4aca-8a4f-067a67396ba4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 7.62 3.37 0)
+			(layer "F.Fab")
+			(uuid "d362f8e5-7d07-4ea7-be79-e7df5a614d5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7083ac37-0fde-4a38-a30f-b1bf6b868c51")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41cf1d27-876e-4556-9e32-fa6d3fa8bcaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CatNo" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e677d132-1433-46b1-9c36-bb9371692d61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/80177bee-98fe-4dbe-ab48-a1ad685182e0")
+		(sheetname "/")
+		(sheetfile "amp.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 1.44 0)
+			(end 1.55 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2c4e179c-2233-46da-93c8-48454a155af1")
+		)
+		(fp_line
+			(start 13.8 0)
+			(end 13.69 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "92d64320-719e-45a4-9b5a-4e9f83f4a155")
+		)
+		(fp_rect
+			(start 1.55 -2.37)
+			(end 13.69 2.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "806dcb45-7b75-46fe-9af3-b7bf2bfc8128")
+		)
+		(fp_rect
+			(start -1.45 -2.5)
+			(end 16.69 2.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "25c9c5d1-9cda-4b1d-b0cb-18cd84978d48")
+		)
+		(fp_line
+			(start 0 0)
+			(end 1.67 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "97477274-9b69-4a7c-82b9-29da8475f2de")
+		)
+		(fp_line
+			(start 15.24 0)
+			(end 13.57 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ccaf6e66-f263-46c8-8267-40afeee79b93")
+		)
+		(fp_rect
+			(start 1.67 -2.25)
+			(end 13.57 2.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "f3c8df49-7baa-495c-8813-66e0421487dd")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 7.62 0 0)
+			(layer "F.Fab")
+			(uuid "8a98d293-15db-423b-9ee4-491c4b284471")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.4 2.4)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 64 "Net-(U5A-G)")
+			(pintype "passive")
+			(uuid "87a1344e-2283-495c-ae4a-38fcffa9502d")
+		)
+		(pad "2" thru_hole circle
+			(at 15.24 0)
+			(size 2.4 2.4)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 24 "Net-(J3-In)")
+			(pintype "passive")
+			(uuid "a5e19c28-0814-43a9-96c7-b778b2e60f9a")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+		(layer "F.Cu")
+		(uuid "f28de315-854f-4f11-8cf2-f1ca2b89d327")
+		(at 205.2574 262.4074 180)
+		(descr "Resistor, Axial_DIN0414 series, Axial, Horizontal, pin pitch=15.24mm, 2W, length*diameter=11.9*4.5mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
+		(tags "Resistor Axial_DIN0414 series Axial Horizontal pin pitch 15.24mm 2W length 11.9mm diameter 4.5mm")
+		(property "Reference" "R29"
+			(at 7.62 -3.37 0)
+			(layer "F.SilkS")
+			(uuid "8285afa1-34e6-4642-a439-59b31fac7229")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 7.62 3.37 0)
+			(layer "F.Fab")
+			(uuid "49004f0a-8e23-4b0f-b75e-386221b51740")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67c0d71a-15f7-42bd-81d6-d68f5c0b8bc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d249211-2087-44ae-be42-1271cbe816ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "CatNo" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63a8a3da-0254-4d9d-b294-62626e500df2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/5c8f38a9-d684-46a1-bf4b-ed5209730926")
+		(sheetname "/")
+		(sheetfile "amp.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 13.8 0)
+			(end 13.69 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "662e192a-3f56-49e9-8480-7cf2bb4dc8ff")
+		)
+		(fp_line
+			(start 1.44 0)
+			(end 1.55 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1dc1e706-b160-409e-ad56-dce9ee22fa2b")
+		)
+		(fp_rect
+			(start 1.55 -2.37)
+			(end 13.69 2.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.SilkS")
+			(uuid "11ce9e88-0ec7-4e39-8f20-0815611a69f1")
+		)
+		(fp_rect
+			(start -1.45 -2.5)
+			(end 16.69 2.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "5a3f92b9-4174-47d9-9180-4c99649e9250")
+		)
+		(fp_line
+			(start 15.24 0)
+			(end 13.57 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ee2f2131-6945-48df-932e-239346584c64")
+		)
+		(fp_line
+			(start 0 0)
+			(end 1.67 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "aede1cca-c367-4b46-b1d5-a7ba0426fb2d")
+		)
+		(fp_rect
+			(start 1.67 -2.25)
+			(end 13.57 2.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "f7ee1a35-ee7b-4768-9d0f-be94604314e2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 7.62 0 0)
+			(layer "F.Fab")
+			(uuid "e5f0bdea-177e-4c52-be33-e531480b4f4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0 180)
+			(size 2.4 2.4)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 63 "Net-(U1A-G)")
+			(pintype "passive")
+			(uuid "63bbec52-63e4-46ac-8ea6-d2010cd98fd6")
+		)
+		(pad "2" thru_hole circle
+			(at 15.24 0 180)
+			(size 2.4 2.4)
+			(drill 1.2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 22 "Net-(J1-In)")
+			(pintype "passive")
+			(uuid "d548460a-8bb2-48fd-8c34-dfa6ab69449c")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(gr_line
 		(start 0 0)

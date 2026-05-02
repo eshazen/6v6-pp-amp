@@ -5448,7 +5448,7 @@
 		)
 		(uuid "6ef17403-03b1-4890-97eb-6960b61a8948")
 	)
-	(text "6SL7 Push-Pull Stereo Amplifier"
+	(text "6V6 Push-Pull Stereo Amplifier"
 		(exclude_from_sim no)
 		(at 226.06 180.34 0)
 		(effects
@@ -5528,12 +5528,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22270a02-791e-4153-9867-6bf12fe29ab1")
-	)
-	(junction
-		(at 22.86 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "265a7f1f-d8d1-4d52-b9c2-046d95168f78")
 	)
 	(junction
 		(at 223.52 55.88)
@@ -5758,6 +5752,12 @@
 		(uuid "b5a4a4c2-8305-4fd3-94d3-662ee300e154")
 	)
 	(junction
+		(at 22.86 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6b6d93f-e0f6-4f2d-a584-6d58b6ec8864")
+	)
+	(junction
 		(at 299.72 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5774,6 +5774,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c76f5c6a-2fa4-491d-9883-583417e65ead")
+	)
+	(junction
+		(at 176.53 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c8c4eda1-aa6f-420b-a181-bd050b15b9f8")
 	)
 	(junction
 		(at 284.48 93.98)
@@ -5810,12 +5816,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9bf9d76-ac49-4e83-ae1f-babcb7109f86")
-	)
-	(junction
-		(at 176.53 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9cae1fc-e925-4fbd-8238-e3114394e8eb")
 	)
 	(junction
 		(at 146.05 165.1)
@@ -6133,16 +6133,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 102.87) (xy 176.53 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19262165-0b20-49c5-95f8-96d81cd186d1")
-	)
-	(wire
-		(pts
 			(xy 241.3 102.87) (xy 246.38 102.87)
 		)
 		(stroke
@@ -6240,16 +6230,6 @@
 			(type default)
 		)
 		(uuid "233cf392-4fda-4675-b24f-fbb965a146f5")
-	)
-	(wire
-		(pts
-			(xy 35.56 102.87) (xy 22.86 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23430934-febd-4d4c-ab21-ec56e5702ad9")
 	)
 	(wire
 		(pts
@@ -6833,6 +6813,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 102.87) (xy 189.23 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5803b64f-b1dc-4ac4-a5e3-f58d14566f59")
+	)
+	(wire
+		(pts
 			(xy 189.23 162.56) (xy 189.23 160.02)
 		)
 		(stroke
@@ -7160,6 +7150,16 @@
 			(type default)
 		)
 		(uuid "73e0d76a-fc63-49a2-b969-7048b22485ae")
+	)
+	(wire
+		(pts
+			(xy 176.53 102.87) (xy 179.07 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74b8e30b-3892-423d-a413-e31543494ce1")
 	)
 	(wire
 		(pts
@@ -8003,6 +8003,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 102.87) (xy 25.4 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb1b5ee-f575-4f57-9aa7-72bfd83a5e3b")
+	)
+	(wire
+		(pts
 			(xy 123.19 171.45) (xy 125.73 171.45)
 		)
 		(stroke
@@ -8260,6 +8270,16 @@
 			(type default)
 		)
 		(uuid "e6c850e5-f9d3-4c21-b27a-b19a3d2e975e")
+	)
+	(wire
+		(pts
+			(xy 33.02 102.87) (xy 35.56 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e71950b3-b531-4a03-9d49-9515c86f0802")
 	)
 	(wire
 		(pts
@@ -16145,6 +16165,154 @@
 			(project "amp"
 				(path "/1226cee2-82be-487a-baac-f8a71896f140"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 29.21 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c8f38a9-d684-46a1-bf4b-ed5209730926")
+		(property "Reference" "R29"
+			(at 29.21 97.663 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 29.21 99.9744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+			(at 28.956 103.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CatNo" ""
+			(at 31.75 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5c1bfcb-b605-4a24-baad-bb0bfc34681d")
+		)
+		(pin "2"
+			(uuid "91fdb0fb-087a-4a38-967b-fe76cf6fb96e")
+		)
+		(instances
+			(project "amp"
+				(path "/1226cee2-82be-487a-baac-f8a71896f140"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 182.88 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80177bee-98fe-4dbe-ab48-a1ad685182e0")
+		(property "Reference" "R30"
+			(at 182.88 97.663 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 182.88 99.9744 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
+			(at 182.626 103.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CatNo" ""
+			(at 185.42 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1497b99-93e9-4fb1-b72b-a4f9e342fd19")
+		)
+		(pin "2"
+			(uuid "aa3e239c-51a8-4dc1-bffb-40b584b9b771")
+		)
+		(instances
+			(project "amp"
+				(path "/1226cee2-82be-487a-baac-f8a71896f140"
+					(reference "R30")
 					(unit 1)
 				)
 			)
